@@ -1,17 +1,13 @@
 {
-  "name": "bot",
+  "name": "bot-24h-aternos",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "express": "^5.2.1",
-    "mineflayer": "^4.34.0"
+    "express": "^4.19.2",
+    "mineflayer": "^4.20.0"
   }
 }
