@@ -14,7 +14,7 @@ const config = {
   port: Number(process.env.MC_PORT || 30864),
   username: process.env.MC_USER || 'Bot24horas',
   // IMPORTANTE: coloque a versão exata do seu servidor (ex: "1.21.1")
-  version: process.env.MC_VERSION || '1.21.1',
+  version: process.env.MC_VERSION || '1.21.11',
   auth: 'offline' // Aternos geralmente é offline-mode (sem Microsoft). Se o seu for online-mode, isso não funciona.
 };
 
@@ -98,3 +98,4 @@ function startBot() {
 }
 
 startBot();
+
